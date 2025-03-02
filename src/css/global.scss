@@ -1,0 +1,22 @@
+/* Класс для кнопок */
+.opto-button {
+  background-color : #a4f0eb;
+  border-color     : #a4f0eb;
+  color            : #000;
+}
+
+.opto-button:hover {
+  background-color : #8de1df;
+  border-color     : #8de1df;
+}
+
+.opto-button:active {
+  background-color : #74bbb9 !important;
+  border-color     : #74bbb9 !important;
+}
+
+/* ~Класс для кнопок */
+
+.form-control {
+  padding : .375rem 0.35rem;
+}

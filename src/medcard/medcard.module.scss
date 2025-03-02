@@ -1,0 +1,21 @@
+
+.medkartaGrid {
+  display               : grid;
+  grid-template-columns : 168px 405px;
+}
+
+.medkartaInput {
+  width       : 50px;
+  margin-left : 5px
+}
+
+.medkartaInputBlock {
+  display         : flex;
+  justify-content : space-between;
+}
+
+.medkartaLeftBlock {
+  display         : flex;
+  flex-direction  : column;
+  justify-content : space-between;
+}

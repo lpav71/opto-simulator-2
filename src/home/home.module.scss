@@ -1,0 +1,47 @@
+$mainColor : #A4F0EB;
+$mainWidth : 1880px;
+$lensColor : #5da3dc;
+
+body {
+  font-family : "Play", sans-serif;
+  font-weight : 400;
+  font-style  : normal;
+}
+
+.main {
+  width           : $mainWidth;
+  height          : 960px;
+  background      : $mainColor;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+}
+
+.gridContainer {
+  display               : grid;
+  grid-template-columns : 600px 600px 600px;
+  gap                   : 20px;
+}
+
+.block {
+  border     : 1px solid #cbcbcb;
+  width      : 600px;
+  height     : 450px;
+  background : white;
+  padding    : 10px;
+}
+
+.header {
+  background      : $mainColor;
+  width           : $mainWidth;
+  padding         : 12px 2px 2px 2px;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+  color           : #1F4E79;
+  font-weight     : bold;
+}
+
+h4 {
+  text-align : center;
+}
